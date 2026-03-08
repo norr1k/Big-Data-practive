@@ -19,7 +19,8 @@ file2 = "archive/AHS_Woman_23_Madhya_Pradesh/AHS_Woman_23_Madhya_Pradesh_Part_2.
 # Пути к двум CSV файлам с данными.
 # Каждый файл содержит часть данных по одному штату (Madhya Pradesh).
 
-print("Loading data...")
+print("Loading data...! ! ! ")
+print("Залупа")
 # Сообщение в консоль, чтобы понимать на каком этапе программа
 
 df1 = pd.read_csv(file1, sep="|", nrows=10000)
