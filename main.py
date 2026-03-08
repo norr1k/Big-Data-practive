@@ -20,6 +20,7 @@ file2 = "archive/AHS_Woman_23_Madhya_Pradesh/AHS_Woman_23_Madhya_Pradesh_Part_2.
 # Каждый файл содержит часть данных по одному штату (Madhya Pradesh).
 
 print("Loading data...! ! ! ")
+print("Говно")
 print("Залупа")
 # Сообщение в консоль, чтобы понимать на каком этапе программа
 
