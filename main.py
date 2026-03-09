@@ -7,12 +7,12 @@ files = [
     "archive/AHS_Woman_18_Assam/AHS_Woman_18_Assam.csv",
     "archive/AHS_Woman_20_Jharkhand/AHS_Woman_20_Jharkhand.csv",
     "archive/AHS_Woman_21_Odisha/AHS_Woman_21_Odisha.csv",
-    "archive/AHS_Woman_22_Chhattisgarh/AHS_Woman_22_Chhattisgarh.csv",
+    "archive/AHS_Woman_22_Chhgitattisgarh/AHS_Woman_22_Chhattisgarh.csv",
     "archive/AHS_Woman_23_Madhya_Pradesh/AHS_Woman_23_Madhya_Pradesh_Part_1.csv",
     "archive/AHS_Woman_23_Madhya_Pradesh/AHS_Woman_23_Madhya_Pradesh_Part_2.csv"
 ]
 
-print("Loading data...")
+print("Loading data...") 
 
 # Считываем все файлы и объединяем их
 dfs = [pd.read_csv(f, sep="|") for f in files]
@@ -24,7 +24,7 @@ print("Data merged")
 print("Dataset shape:", df.shape)
 
 # Список всех колонок
-print("\nColumns:")
+print("\nColumns: ")
 print(df.columns)
 
 # Первые строки
